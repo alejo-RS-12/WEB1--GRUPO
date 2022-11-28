@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guts</title>
+    <link rel="stylesheet" href="css/mobilefirst.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="btn_menu"><a>MENÚ</a></div>
+            </div>
+
+            <div class="menu">
+                <ul class="navigation">
+                    <li><a href="Guts.html">Guts</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Dragons_Slayer.html">Dragon Slayer</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="imgLogo">
+            <img src="img/logo tpe.png" class="logo" alt="Logo de la página">
+        </div>
+    </header>
+
+
+    <div class="container">
+
+        <hr>
+
+        <section>
+            <h1>Guts</h1>
+            <h2 class="frase">"Si no puedes vivir tu vida como quieres, es mejor que estés muerto."</h2>
+
+            <div class="imgGuts">
+                <img src="img/Guts_frase.jpg" alt="Imagen de Guts">
+            </div>
+        </section>
+
+        <hr>
+
+        <div class="imgLogo2">
+            <img src="img/Berserk_Logo_1.png" class="logo2" alt="Logo Berserk">
+        </div>
+
+        <hr>
+
+        <section>
+            <h2 class="subtitulo">Introducción al personaje</h2>
+
+
+            <p>Guts (Gattsu), conocido por su epíteto del "<b>Espadachín Negro</b>", es el protagonista del manga y
+                anime <b><a href="index.html">Berserk.</a></b></p>
+            <p>Es un antiguo mercenario <a href="#estigma"><b>marcado</b></a> que viaja por el mundo en una lucha
+                interna constante entre perseguir su venganza y proteger a sus seres queridos.</p>
+            <div class="imgMarca">
+                <img src="img/marca.jpg" alt="Paneles demostrativos sobre la marca del sacrificio">
+            </div>
+            <p>Es capaz de hacer lo que sea por su objetivo, sin importar por cuántos peligros pase.</p>
+            <p>En el pasado, se unió a un grupo de mercenarios conocidos como la Banda del Halcón, ayudando
+                decisivamente en sus incursiones durante la Guerra de los Cien Años como capitán de la unidad de asalto.
+            </p>
+            <p>Sin embargo, tras los horrores acaecidos en el Eclipse, Guts se embarca en una guerra contra los <a
+                    href="#mano"><b>Mano de Dios</b></a> y los <a href="#apostol"><b>Apóstoles.</b></a></p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 class="subtitulo">Personajes</h2>
+            <p>A lo largo del rumbo de Guts, éste se encontrará con variedad de personajes.</p>
+            <p>A continuación, dejamos un pequeño reto para los fanáticos de Berserk.</p>
+            <p>Los invitamos a rellenar la siguiente tabla con caracteristicas de sus personajes preferidos, o que
+                consideren más relevantes en la obra.</p>
+        </section>
+
+        <div class="tabla">
+            <form class="formTabla" id="form-insertar-tabla">
+                <div>
+                    <h3 id="msj"></h3>
+                </div>
+                <input type="text" placeholder="Personaje" id="nombre" name="nombre">
+                <input type="number" placeholder="Edad" id="edad" name="edad">
+                <input type="text" placeholder="Apodos" id="apodos" name="apodos">
+
+                <div class="form-botones">
+                    <button type="button" class="botones" id="btn-agregar">Agregar</button>
+                    <button type="button" class="botones" id="btn-agregar-tres">Agregar x3</button>
+                </div>
+            </form>
+            
+            <table id="tablaDinamica">
+                <thead>
+                    <tr>
+                        <th id="person">Personajes</th>
+                        <th id="age">Edad</th>
+                        <th id="names">Apodos</th>
+                        <th>Eliminar</th>
+                        <th>Editar</th>
+                    </tr>
+                </thead>
+                
+                <tbody id="insertarTabla">
+                    
+                </tbody>
+            </table>
+
+            <p id="pageNum"></p>
+            <div class="form-botones">
+                <button type="button" class="botones" id="btn-anterior">anterior</button>
+                <button type="button" class="botones" id="btn-siguiente">siguiente</button>
+            </div>
+        </div>
+
+        <hr>
+
+        <section>
+            <h2 id="mano" class="subtitulo">Mano de Dios</h2>
+            <p>Es un poderoso grupo de ángeles (o demonios), donde cada miembro corresponde a un dedo de esta mano.</p>
+            <p>Todos ellos antiguamente fueron humanos, pero se los eligió para encargarse del sufrimiento humano tras
+                usar el <a class="Berserk" href="#behelits"><b>Beherit</b></a> rojo, y realizar un sacrificio adecuado
+                durante un eclipse que ocurre cada 216 años.</p>
+
+            <div class="imgMano">
+                <img src="img/mano.jpg" alt="Guts pensando en los miembros de la Mano de Dios">
+            </div>
+            <p>Pese a sus inmensos poderes, no son omnipotentes o dioses: por ejemplo, no pueden interferir en la
+                causalidad o el destino de una persona.</p>
+            <p>No pueden tomar forma corpórea en el Plano Material, por lo que necesitan de un medio que usar.</p>
+            <p>Pueden presenciarse cuando un Beherit es activado, ya sea para el nacimiento de un Apóstol o para el de
+                otro miembro del grupo.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="behelits" class="subtitulo">Beherits (Behelits)</h2>
+
+            <h2 class="frase">"No son más que objetos similares a piedras, pero todos los destinos que dependen de él
+                están en manos de su amo."</h2>
+
+            <div class="imgBehelit">
+                <img src="img/behelit.jpg" alt="Behelit">
+            </div>
+
+            <p>Un beherit, o Behelit, es un objeto pequeño de forma oval, con un conjunto de rasgos faciales humanos
+                esparcidos al azar a través de su superficie.</p>
+            <p>Son llaves que enlazan el mundo humano y las capas profundas del mundo astral.</p>
+            <p>Pertenecen a sus propietarios y no pueden ser perdidos o descartados hasta que se hayan utilizado, con el
+                poseedor deseando fervientemente el poder de la Mano de Dios.</p>
+            <p>Entonces, los rasgos faciales se recolocan en una cara que llora sangre y grita.</p>
+
+            <div class="imgBehelit">
+                <img src="img/behelit2.jpg" alt="Behelit activado">
+            </div>
+
+            <p>Cuando esto ocurre, se crea un nexo dimensional para la aparición de la Mano de Dios (que, desde el
+                exterior, se asemeja a un torbellino) e iniciar la llamada "Ceremonia del Advenimiento Demoníaco" o
+                "Eclipse".</p>
+            <p>En la cual el portador del beherit se transformará en un apóstol (o en un miembro de la Mano de Dios) si
+                acepta realizar un sacrificio adecuado.</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="apostol" class="subtitulo">Apóstoles</h2>
+
+            <p>Son criaturas que aparecen primeramente en el Eclipse (excepto en las apariciones esporádicas), y que, al
+                finalizar este, continúan apareciendo.</p>
+            <p>Normalmente como humanos que pueden alterar su forma en otra más monstruosa.</p>
+
+            <div class="imgApostol">
+                <img src="img/apostol.jpg" alt="Apostoles">
+            </div>
+
+            <p>La Mano de Dios sólo les da una norma de comportamiento: "<b>haz lo que quieras</b>".</p>
+            <p> Generalmente, esto significa que el apóstol comete actos atroces y violentos (comer carne humana,
+                asesinar, violar...).</p>
+            <p>Pero en algunas ocasiones los apóstoles mantienen una actitud relativamente civilizada. </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="estigma" class="subtitulo">La marca del sacrificio</h2>
+
+            <p>Es una marca, que ponen los miembros de la Mano de Dios a lo que será sacrificado hasta el último
+                estertor de dolor y la última gota de sangre.</p>
+            <div class="imgMarca">
+                <img src="img/estigma.jpg" alt="">
+            </div>
+
+            <p>Dado para seres oscuros en la ceremonia de creación de un apóstol o de un nuevo miembro de la Mano de
+                Dios en el Eclipse.</p>
+            <p>Desde que el objetivo es marcado, su vida pertenece a los seres demoníacos. Atrae espíritus malignos
+                hacia el marcado por la noche o en bosques densos y profundos.</p>
+            <p>A su vez, la Marca sangrará o causará molestias en presencia de ciertos seres astrales (como los
+                espíritus, los apóstoles o la Mano de Dios)</p>
+            <p>aumentando así el sangrado al estar cerca de un ser de mayor poder en cuestión.</p>
+
+            <div class="imgMarca">
+                <img src="img/marca2.jpg" alt="Marca de sacrificio en la nuca de Guts">
+            </div>
+        </section>
+
+        <hr>
+
+        <div class="Acceso">
+            <a class="hiper" href="Dragons_Slayer.html">
+                <div class="imgHiper">
+                    <img src="img/dragonslayer logo.png" alt="Acceso a página sobre la Dragon Slayer(Mata Dragones)">
+                </div>
+                <b>
+                    <p>Atestigua la magnificencia y sanguinario rumbo de este poderoso artefacto.</p>
+                </b>
+            </a>
+        </div>
+
+        <hr>
+
+        <footer>
+            <p class="footertxt"><b>"BERSERK" y todo lo que abarca son marcas registradas de Kentarou Miura y
+                    Hakusensha.</b></p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/tabla.js"></script>
+    <script type="text/javascript" src="js/menuResponsive.js"></script>
+</body>
+
+</html>

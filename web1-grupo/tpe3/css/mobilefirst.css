@@ -1,0 +1,681 @@
+body {
+    background-image: url('/img/fondo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: serif;
+    font-size: 16pt;
+    font-weight: 300;
+    word-spacing: 5px;
+    text-shadow: 1px 1px #c3c3c3;
+}
+
+.container{
+    justify-content: center;
+}
+
+.container img{
+    margin: auto;
+}
+
+/* Edición de línea para cambiar de temas entre secciones en la/s página/s */
+hr {
+    border: 1;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+/*Edicion de medidas de logos al inicio de la pagina*/
+.imgLogo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgLogo img{
+    width: 90%;
+}
+
+.imgLogo2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgLogo2 img{
+    width: 80%;
+}
+
+/*Edicion de medidas de imagen de Puck y Guts*/
+.imgPuck{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgPuck img{
+    width: 80%;
+    margin: 2%;
+    border: 1px solid black;
+}
+
+/*Edicion de medidas de imagen de frase de Guts*/
+.imgGuts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgGuts img{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Edicion de medidas de imagen de marca en Guts*/
+.imgMarca{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgMarca img{
+    width: 70%;
+    margin: 2%;
+    border: 1px solid black;
+}
+
+/*Edicion de medidas de imagen de la Mano de Dios*/
+.imgMano{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgMano img{
+    width: 90%;
+    border: 1px solid black;
+}
+
+/*Edicion de medidas de imagen de Behelit*/
+.imgBehelit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgBehelit img{
+    width: 70%;
+    border: 1px solid black;
+}
+
+/*Edicion de medidas de imagen de apostoles*/
+.imgApostol{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgApostol img{
+    width: 60%;
+    margin: 2%;
+    border: 1px solid black;
+}
+
+/*Edicion de medidas de imagen de Guts esgrimando la Dragon Slayer*/
+.imgDragon{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgDragon img{
+    width: 90%;
+    border: 1px solid black;
+}
+
+/*Edicion de medidas de imagen de Godo*/
+.imgGodo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgGodo img{
+    width: 70%;
+    border: 1px solid black;
+}
+
+/*Edicion de medidas de imagend de Guts asesinando con la Dragon Slayer*/
+.imgDslayer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.imgDslayer img{
+    width: 80%;
+    border: 1px solid black;
+}
+
+/*Div contacto de contacto.html*/
+.contacto{
+    text-align: center;
+}
+
+/* Menú de navegación */
+.btn_menu {
+    color: white;
+    padding: 15px;
+    user-select: none;
+}
+
+.btn_menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu {
+    border-bottom: 4px solid gray;
+    width: 100%;
+    display: flex; 
+}
+
+ul.navigation {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    display: none;
+    flex-direction: column;
+}
+
+/* si tiene tambien la clase show */
+ul.navigation.show {
+    display: flex;
+}
+
+ul.navigation li {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 15px 20px;
+}
+
+ul.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.navigation li:hover {
+    background-color: gray;
+}
+
+/* Medidas y edición de tabla de personajes */
+.tabla{
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.formTabla input{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.form-botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Tabla de personajes (normal) */
+.tabla tbody{
+    color: black;
+}
+
+table img{
+    width: 20%;
+    border: 1px solid black;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+    margin-top: 1%;
+}
+
+table tr:hover{
+    background: #c3c3c3;
+}
+
+/* Titulo de formulario de contacto */
+.contacto h1{
+    margin: 0%;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+/* div de formulario */
+.contacto{
+    width: auto;
+    height: 100%;
+    background-color: grey;
+    margin: auto;
+    margin-top: 3%;
+    padding: 20px 30px;
+    border: 4px solid black;
+}
+
+/* Tamaño de input email e input tel */
+.barra {
+    width: 100%;
+    border: 1px solid black; 
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* div del captcha */
+.captcha {
+    background-image: url('/img/difuminacionCaptcha.jpg'); 
+    padding: 1%;
+}
+
+/* Edición de código captcha */
+.captcha p {
+    color: darkgrey;
+    font-size: 30px;
+    user-select: none;
+}
+
+.tituloCaptcha{
+    margin: 0;
+}
+
+/* Tamaño y edicion de boton de enviar */
+.boton {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 1px;
+    margin-bottom: 2px;
+}
+
+/* Div con posicionamiento de imagen y texto con hipervinculo a Guts.html o Dragons_Slayer.html */
+.Acceso {
+    width: 80%;
+    text-align: center;
+    list-style: none;
+}
+
+.Acceso img{
+    width: 60%;
+}
+
+a:hover {
+    opacity: .7;
+    transition: opacity .25s;
+}
+
+/* Hipervinculo Dragons_Slayer.html o Guts.html desde imagen y texto */
+.Acceso , .hiper {
+    margin: auto;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    border: 1px; 
+}
+
+/* Edición de la lista de sagas de la obra */
+.sagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: oblique;
+    font-size: medium;
+}
+
+.sagas li{
+    margin: 0.7%;
+    font-size: large;
+}
+
+/* Edicion para hipervínculos en general*/
+a{
+    color: black;
+    text-decoration: underline;
+    list-style: none;
+    border: 1px; 
+}
+
+.Acceso a{
+    text-decoration: none;
+}
+
+/* hover para todos los hipervínculos */
+a:hover {
+    color: darkred;
+}
+
+/* Edición de parrafo en el footer */
+.footertxt{
+    font-style: oblique;
+    color: gray;
+    font-size: 80%;
+}
+
+/* Decoración de titulo y subtitulo*/
+h1, h2 {
+    font-size: larger;
+    text-decoration: underline solid black;
+    text-align: center;
+}
+
+/* Edición en el estilo de fuente de frases citadas de la obra*/
+h2.frase {
+    font-style: italic;
+    text-decoration: none;
+    font-size: large;
+}
+
+/* Decoración de subtitulos generales */
+h2.subtitulo {
+    text-decoration: underline solid black;
+}
+
+/* Edición de los elementos p */
+p { 
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: medium;
+}
+
+@media only screen and (min-width: 600px)  {
+    body {
+        background-image: url('/img/fondo.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: serif;
+        font-size: 16pt;
+        font-weight: 300;
+        word-spacing: 5px;
+        text-shadow: 1px 1px #c3c3c3;
+        text-align: center;
+    }
+
+    /* Tabla de personajes (normal) */
+    .tabla tbody{
+        color: black;
+    }
+
+    table img{
+        width: 20%;
+        border: 1px solid black;
+    }
+
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        margin: auto;
+        margin-top: 1%;
+    }
+
+    table tr:hover{
+        background: #c3c3c3;
+    }
+
+    /*Edicion de medidas de logos al inicio de la pagina*/
+    .imgLogo{
+        width: 100%;
+    }
+
+    .imgLogo img{
+        width: 35%;
+    }
+
+    .imgLogo2{
+        width: 100%;
+    }
+    
+    .imgLogo2 img{
+        width: 30%;
+        justify-content: center;
+    }
+
+    /*Edicion de medidas de imagen de Puck y Guts*/
+    .imgPuck{
+        width: 100%;
+    }
+
+    .imgPuck img{
+        width: 30%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagen de frase de Guts*/
+    .imgGuts{
+        width: 100%;
+    }
+
+    .imgGuts img{
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /*Edicion de medidas de imagen de marca en Guts*/
+    .imgMarca{
+        width: 100%;
+    }
+
+    .imgMarca img{
+        width: 35%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagen de la Mano de Dios*/
+    .imgMano{
+        width: 100%;
+    }
+
+    .imgMano img{
+        width: 35%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagen de Behelit*/
+    .imgBehelit{
+        width: 100%;
+    }
+
+    .imgBehelit img{
+        width: 20%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagen de apostoles*/
+    .imgApostol{
+        width: 100%;
+    }
+
+    .imgApostol img{
+        width: 20%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagen de la marca del sacrificio*/
+    .imgMarca{
+        width: 100%;
+    }
+
+    .imgMarca img{
+        width: 20%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagen de Guts esgrimando la Dragon Slayer*/
+    .imgDragon{
+        width: 100%;
+    }
+
+    .imgDragon img{
+        width: 30%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagen de Godo*/
+    .imgGodo{
+        width: 100%;
+    }
+
+    .imgGodo img{
+        width: 25%;
+        border: 1px solid black;
+    }
+
+    /*Edicion de medidas de imagend de Guts asesinando con la Dragon Slayer*/
+    .imgDslayer{
+        width: 100%;
+    }
+
+    .imgDslayer img{
+        width: 35%;
+        border: 1px solid black;
+    }
+
+   /* Menú de navegación */
+   .btn_menu {
+    display: none;
+    }
+
+    ul.navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    ul.navigation li {
+        list-style: none;
+        margin: 0px 0px;
+        padding: 15px 20px;
+    }
+
+    /* Edición de la lista de sagas de la obra */
+    .sagas{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-style: oblique;
+        font-size: large;
+    }
+
+    .sagas li{
+        margin: 0.3%;
+        font-size: large;
+    }
+
+    /* div de formulario */
+    .contacto{
+        width: 400px;
+        height: 100%;
+        background-color: grey;
+        margin: auto;
+        margin-top: 3%;
+        padding: 20px 30px;
+        border: 4px solid black;
+    }
+
+    /* Div con posicionamiento de imagen y texto con hipervinculo a Guts.html o Dragons_Slayer.html */
+    .Acceso {
+        width: 100%;
+        margin: auto;
+        list-style: none;
+    }
+
+    .Acceso img{
+        width: 11%;
+    }
+
+    .Acceso a{
+        text-decoration: none;
+    }
+
+    a:hover{
+        opacity: .7;
+        transition: opacity .25s;
+    }
+
+    /* Hipervinculo Dragons_Slayer.html o Guts.html desde imagen y texto */
+    .Acceso, .hiper {
+        color: black;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    /* Tamaño de input email e input tel */
+    .barra {
+        width: 100%;
+        border: 1px solid black; 
+        margin-bottom: 15px;
+        padding: 11px 10px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /* div del captcha */
+    .captcha {
+        background-image: url('/img/difuminacionCaptcha.jpg'); 
+        padding: 1%;
+    }
+
+    /* Edición de código captcha */
+    .captcha p {
+        color: darkgrey;
+        font-size: 30px;
+        user-select: none;
+    }
+
+    .tituloCaptcha{
+        margin: 0;
+    }
+
+    /* Decoración de titulo y subtitulo*/
+    h1, h2 {
+        text-decoration: underline solid black;
+        text-align: center;
+    }
+
+    /* Edición en el estilo de fuente de frases citadas de la obra*/
+    h2.frase {
+        font-style: italic;
+        text-decoration: none;
+        font-size: larger;
+    }
+
+    /* Decoración de subtitulos generales */
+    h2.subtitulo {
+        text-align: center;
+        text-decoration: underline solid black;
+    }
+
+    /* Edición de los elementos p */
+    p { 
+        margin: 1%;
+        text-align: center;
+        font-size: large;
+    }
+}

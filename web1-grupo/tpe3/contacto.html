@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="css/mobilefirst.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="btn_menu"><a>MENÚ</a></div>
+
+                <div class="menu">
+                    <ul class="navigation">
+                        <li><a href="Guts.html">Guts</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="Dragons_Slayer.html">Dragon Slayer</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="imgLogo">
+                <img src="img/logo tpe.png" class="logo" alt="Logo de la página">
+            </div>
+        </header>
+
+        <form>
+
+            <div class="contacto">
+                <h1>Contacto</h1>
+
+                <label for="email">Email</label>
+                <input class="barra" id="email" type="email" name="email" placeholder="Email">
+
+                <label for="telefono">Telefono</label>
+                <input class="barra" id="tel" type="tel" name="telefono" placeholder="Telefono">
+
+
+                <div>
+                    <h4 class="tituloCaptcha">Captcha</h4>
+
+                    <div class="captcha">
+                        <p id="codigo"></p>
+                    </div>
+
+                    <p id="resultado"></p>
+
+                </div>
+                <input type="text" id="respuesta">
+                <input class="boton" type="submit" name="enviar" value="Enviar" id="enviar">
+                <input class="boton" id="reset" type="reset" value="Resetear">
+            </div>
+
+        </form>
+
+        <script type="text/javascript" src="js/captcha.js"></script>
+        <script type="text/javascript" src="js/menuResponsive.js"></script>
+    </body>
+
+</html>
